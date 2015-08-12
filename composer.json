@@ -1,0 +1,20 @@
+{
+    "name":        "e-frank/yii2-requirejs",
+    "description": "Just loads require.js to keep it in one place.",
+    "keywords":    ["yii", "require", "requirejs", "require.js", "amd"],
+    "type":        "yii2-extension",
+    "license":     "BSD-3-Clause",
+    "version":     "2.1.20",
+    "authors":     [
+        {
+            "name":     "Elmar Frank",
+            "homepage": "http://yii.efrank.at/extension/require"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2":  "*"
+    },
+    "autoload": {
+        "psr-4": { "x1\\requirejs\\": "" }
+    }
+}
